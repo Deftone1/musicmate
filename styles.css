@@ -40,9 +40,8 @@ h1 {
     width: 600px;
 }
 
-#notepad {
+#musicLogo {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.214);
-    
 }
 
 form {
@@ -75,7 +74,7 @@ button:hover {
     color: lightcoral;
 }
 
-.todoList {
+.songContent {
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 20px;
@@ -92,4 +91,18 @@ li {
     display: flex;
     align-items: center;
     border-bottom: 1px solid lightgrey;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 8px 8px 0px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.clearAll:hover {
+    color: lightcoral;
+    cursor: pointer;
 }
