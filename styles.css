@@ -15,7 +15,7 @@ html {
     margin: auto;
     text-align: center;
     margin-top: 50px;
-    border-radius: 12px;
+    border-radius: 5px;
     padding-top: 8px;
 }
 
@@ -32,6 +32,11 @@ h1 {
     padding-bottom: 12px 12px;
     color: rgb(0, 0, 0);
     font-size: 40px;
+}
+
+.slogan {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
 }
 
 .main {
@@ -72,6 +77,10 @@ button {
 
 button:hover {
     color: lightcoral;
+}
+
+i {
+    pointer-events: none;
 }
 
 .songContent {
@@ -115,5 +124,11 @@ li {
 .lyric-list-item {
     font-family: "Raleway", sans-serif;
     padding: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.lyric-list-item-fall {
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
 }
 
