@@ -35,7 +35,7 @@ h1 {
 }
 
 .main {
-    text-align: center;
+    
     margin: 0 auto;
     width: 600px;
 }
@@ -78,7 +78,7 @@ button:hover {
     background-color: #ffffff;
     border-radius: 5px;
     margin-top: 20px;
-    padding: 10px, 25px;
+    padding: 3px 6px;
     height: 100%;
 }
 
@@ -106,3 +106,14 @@ li {
     color: lightcoral;
     cursor: pointer;
 }
+
+.lyric-content {
+    flex-grow: 1;
+   
+}
+
+.lyric-list-item {
+    font-family: "Raleway", sans-serif;
+    padding: 4px;
+}
+
