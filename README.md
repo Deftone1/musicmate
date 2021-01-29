@@ -6,7 +6,7 @@ An organizational application for musical ideas, lyrics, and songwriting concept
 
 ### Eventual Development:
 
-* Connectivity with dictionary/thesaurus to aid in song wording
+* Connectivity with dictionary/thesaurus to aid in song development
 * Original written song libraries
 
 
